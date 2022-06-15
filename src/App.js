@@ -23,7 +23,7 @@ function App() {
 
 
       return (
-    <div className='page' style={Styles}>
+    <div id='page' style={Styles} className={click ? "darkPage" : "lightPage"}>
       <Nav toggleClick={handleClick} 
            bgColor={Styles} 
            txtColor={text_color}
